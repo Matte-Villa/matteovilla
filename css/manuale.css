@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: linear-gradient(135deg, #2e8b57 40%, #1e3c1d 100%);
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    width: 90vw;
+    height: 90vh;
+    overflow-y: scroll;
+    background-color: white;
+    border: solid 2px black;
+    border-radius: 5%;
+    text-align: center;
+    padding: 5px;
+}
+
+li {
+    text-align: left;
+}
+
+p {
+    text-align: left;
+}
